@@ -95,17 +95,17 @@ public class TestClass1 {
 //	}
 	
 	
-	@AfterClass
-	public void clearObject()
-	{
-		applicationHeader=null;
-	}
-	
-	@AfterTest
-	public void closeBrowser()
-	{
-		driver.close();
-		driver=null;
-		System.gc();
-	}
+//	@AfterClass
+//	public void clearObject()
+//	{
+//		applicationHeader=null;
+//	}
+//	
+//	@AfterTest
+//	public void closeBrowser()
+//	{
+//		driver.close();
+//		driver=null;
+//		System.gc();
+//	}
 }
